@@ -1,0 +1,42 @@
+Q1.   Write a python script to create a list of first N natural number.
+Ans.   c1=[e+1 for e in range(eval(input("Enter a Number: ")))]
+       print(c1)
+       
+Q2.   Write  a python script to create a list of first N odd natural number.
+Ans.
+
+Q3.   Write a python script to create a list of first N even natural number.
+Ans.   c1=[(e+1)*2 for e in range(eval(input("Enter a Number: ")))]
+       print(c1)
+       
+Q4.   Write a python script to find the greatest number in the given list number.
+Ans.   print("enter a list number with square brackets: ")
+       c1=eval(input())
+       print("The Largest number in given list is:- ",max(c1))
+       
+Q5.   Write a python script to find the smallest number in the given list number.
+Ans.   print("Enter a list number with square brackets: ")
+       c1=eval(input())
+       print("The smallest number in given list is:- ",min(c1))
+       
+Q6.   Write a python script to calculate sum of element in a given list of number.
+Ans.   print("Enter a list number with square brackets: ")
+       c1=eval(input())
+       print("Total element in given list Is:- ",len(c1))
+       
+Q7.   Write a python script to remove all non int value from the list.
+Ans.   
+
+Q8.
+Ans.
+
+Q9.
+Ans. 
+
+
+Q10.  Write a python script to sort a list.
+Ans.   print("Enter a list number with square brackets: ")
+       c1=eval(input())
+       print("Sorted list Is:- ", sorted(c1))
+       
+       
