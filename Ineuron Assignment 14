@@ -3,7 +3,8 @@ Ans.   c1=[e+1 for e in range(eval(input("Enter a Number: ")))]
        print(c1)
        
 Q2.   Write  a python script to create a list of first N odd natural number.
-Ans.
+Ans.   c1=[(e+1)+(e+2) for e in range(eval(input("Enter a number: ")))]
+       print(c1)
 
 Q3.   Write a python script to create a list of first N even natural number.
 Ans.   c1=[(e+1)*2 for e in range(eval(input("Enter a Number: ")))]
@@ -27,11 +28,18 @@ Ans.   print("Enter a list number with square brackets: ")
 Q7.   Write a python script to remove all non int value from the list.
 Ans.   
 
-Q8.
-Ans.
+Q8.   Write a python script to distinct elements along with their frequiencies of occurrence in the list.
+Ans.  c1=eval(input("enter list: "))
+      frequency ={}
+      for e in c1:
+           if e in frequency:
+              frequency[e]+=1
+           else:
+              frequency[e]=1
+      print(frequency)
 
-Q9.
-Ans. 
+Q9.   Write a python script to print indices of all occourence of a given element in a given list.
+Ans.   
 
 
 Q10.  Write a python script to sort a list.
