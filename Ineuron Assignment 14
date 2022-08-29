@@ -26,9 +26,16 @@ Ans.   print("Enter a list number with square brackets: ")
        print("Total element in given list Is:- ",len(c1))
        
 Q7.   Write a python script to remove all non int value from the list.
-Ans.   
+Ans.   c1=[10,20.2,30,"ChamchamG",3+4j,"Rajeev"]
+       b=[]
+       for e in c1:
+              if(type(e)==int):
+                     b.append(e)
+                     b.sort()
+       c1=b
+       print(b)
 
-Q8.   Write a python script to distinct elements along with their frequiencies of occurrence in the list.
+Q8.   Write a python script to print distinct elements along with their frequiencies of occurrence in the list.
 Ans.  c1=eval(input("enter list: "))
       frequency ={}
       for e in c1:
@@ -39,12 +46,15 @@ Ans.  c1=eval(input("enter list: "))
       print(frequency)
 
 Q9.   Write a python script to print indices of all occourence of a given element in a given list.
-Ans.   
-
+Ans.   c1=[eval(e) for e in input("Enter list elements: ").split(',')]
+       element=eval(input("Enter element value "))
+       index=0
+       whille(index<len(c1)):
+              if(c1[index]==element):
+                     print(index,end' ')
+               index=index+1
 
 Q10.  Write a python script to sort a list.
 Ans.   print("Enter a list number with square brackets: ")
        c1=eval(input())
        print("Sorted list Is:- ", sorted(c1))
-       
-       
